@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    background-image: url(/desktopimgwomanindexcozyd.st.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right ;
+    position: relative;
+}
+
+.backgroundoverlay{
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+
+.images{
+    margin: auto;
+}
+.zaralogo{
+    color: white;
+    height: 291px;
+    margin: auto;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+.secondimg{
+    z-index: 2;
+    position: absolute;
+    width: 269px;
+    height: 463px;
+    background-image: url(/desktopimgsoftindexd.st.jpg);
+    margin-top: 6%;
+    margin-left: 42%;
+    background-size: cover ;
+    background-position: left top ;
+}
+
+
+.flex-class{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+
+
+}
+
+.flex-class1{
+    display: flex;
+}
+
+.imagediv{
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 20px;
+    width: 337px;
+    height: 334px;
+    background-image: url(/desktopimgsoftindexd.st.jpg);
+    background-size: cover ;
+    background-position: left top ;
+}
+
+.second-imgdiv{
+    position: absolute;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 14rem;
+    width: 337px;
+    height: 463px;
+    background-image: url(/desktopimgsoftindexd.st.jpg);
+    background-size: cover ;
+    background-position: right top ;
+}
+
+.main-heading{
+    width: 600px;
+    margin-top: 4rem;
+    margin-left: 20rem;
+    font-family:  'Noto Serif Tamil', serif;
+    font-size: 3rem;
+}
+
+.paragraph{
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.heading{
+    position: relative;
+}
+.heading-image{
+    position: absolute;
+    height: 290px;
+    width: 512px;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    border: 13px solid #EED48F;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.heading-image1{
+    position: absolute;
+    height: 213px;
+    width: 193px;
+    margin-top: 2rem;
+    object-fit: cover;
+    bottom: 0;
+    left: 80%;
+    margin-bottom: -13rem;
+}
+
+
+.content{
+    width: 500px;
+    margin-top: 4rem;
+    margin-left: 20%;
+}
+
+.backgroundimage{
+    margin-top: 7rem;
+    background-image: url(/desktopimagedesktop.st.jpg);
+    width: 100%;
+    height: 866px;
+    background-size: cover;
+    position: relative;
+}
+
+.backimg{
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    width: 100;
+    height: 316px;
+}
+.img21{
+    position: absolute;
+    top: 15%;
+    left: 39%;
+    width: 395px;
+    height: 580px;
+    object-fit: cover;
+    border: 13px solid #EED48F;
+}
